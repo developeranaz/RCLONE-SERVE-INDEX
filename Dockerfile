@@ -1,4 +1,4 @@
-FROM debian:sid
+FROM rclone/rclone
 
 RUN set -ex\
     && apt update -y \
