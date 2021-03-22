@@ -12,7 +12,7 @@ RUN set -ex\
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /root/.config/rclone/rclone.conf
 RUN rclone version
-RUN 
+RUN rclone serve http 1sundaran1: -vvv
 RUN chmod +x /entrypoint.sh
 
 CMD /entrypoint.sh
