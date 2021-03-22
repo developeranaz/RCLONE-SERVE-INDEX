@@ -5,6 +5,9 @@ RUN set -ex\
     && apt upgrade -y \
     && apt install -y aria2\
     && apt install -y rclone\
+    && mkdir /root/.config
+    && mkdir /root/.config/rclone
+    && mv rclone.conf /root/.config/rclone/rclone.conf
     && apt autoremove -y
 
 COPY entrypoint.sh /entrypoint.sh
