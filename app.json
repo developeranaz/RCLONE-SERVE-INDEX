@@ -1,10 +1,20 @@
 {
-  "name": "heroku-rclone-serve",
-  "description": "rcloneserve",
-  "repository": "https://github.com/developeranaz/heroku-rclone-serve",
-  "keywords": ["privat", "Chm", "Herok", "easy", "nodejs", "free"],
-  "builpacks": [
-    { "url": "heroku-buildpack-docker-compose" },
-    { "url": "https://github.com/dockhero/heroku-buildpack-docker-compose.git" }
-  ]
-}
+  "name": "her-er",
+  "description": "changeherexxxxxx.",
+  "keywords": ["w1", "w2", "w3"],
+  "env": {
+     "config_url": {
+      "description": "rconf",
+      "value": "rc"
+    },
+     "Remote_drive_name": {
+      "description": "rem-drivename",
+      "value": "1sundaran1"
+    },
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
