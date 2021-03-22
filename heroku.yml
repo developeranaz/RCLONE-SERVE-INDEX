@@ -5,7 +5,7 @@ release:
   image: web
   command:
     - echo 'Starting server after deployment!';
-  docker:
+web:
      image: rclone/rclone:latest
     ports:
       - "8000:8000"
