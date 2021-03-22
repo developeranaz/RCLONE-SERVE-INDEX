@@ -7,7 +7,7 @@ RUN set -ex\
     && apt install -y rclone\
     && mkdir /root/.config\
     && mkdir /root/.config/rclone\
-    && mv rclone.conf /root/.config/rclone/rclone.conf\
+    && mv /rclone.conf /root/.config/rclone/rclone.conf\
     && apt autoremove -y
 
 COPY entrypoint.sh /entrypoint.sh
