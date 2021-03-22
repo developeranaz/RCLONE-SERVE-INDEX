@@ -1,6 +1,5 @@
-version: '1'
+version: '1.53.3'
 
-services:
 rclone:
     image: rclone/rclone:latest
     restart: always
@@ -11,7 +10,5 @@ rclone:
       - "8000:8000"
     networks:
       - x11
-networks:
-  x11:
 
     
