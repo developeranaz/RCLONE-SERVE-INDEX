@@ -2,7 +2,7 @@ version: '1'
 
 services:
 rclone:
-    image: rclone/rclone
+    image: rclone/rclone:latest
     restart: always
     env_file:
       - ./rclone.env
