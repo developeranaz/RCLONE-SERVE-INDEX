@@ -1,11 +1,7 @@
 build:
   docker:
     web: Dockerfile
-run:
-  web: bundle exec puma -C config/puma.rb
-
-
-    image: rclone/rclone:latest
+   image: rclone/rclone:latest
     restart: always
     env_file:
       - ./rclone.env
