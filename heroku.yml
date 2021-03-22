@@ -3,12 +3,6 @@ build:
     web: Dockerfile
    image: rclone/rclone:latest
     restart: always
-    env_file:
-      - ./rclone.env
     ports:
-      - "80:80"
       - "8000:8000"
-    networks:
-      - x11
-
     
