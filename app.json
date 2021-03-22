@@ -1,19 +1,14 @@
 {
-  "name": "her-er",
-  "description": "changeherexxxxxx.",
-  "keywords": ["w1", "w2", "w3"],
-  "env": {
-     "config_url": {
-      "description": "rconf",
-      "value": "rc"
-    },
-     "Remote_drive_name": {
-      "description": "rem-drivename",
-      "value": "1sundaran1"
-    }
-
-
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "website": "",
   "repository": "",
   "stack": "container"
