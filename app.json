@@ -1,1 +1,17 @@
+{
+  "name": "heroku-rclone-serve",
+  "description": serve rclone drive to http via heroku.",
+  "keywords": ["Heroku", "Rclone", "http-serve"],
+  "env": {
+     "rcloneconfigfile": {
+      "description": "rclone.conf file in url",
+      "value": "https://xxxx/rclone.conf"
+    },
 
+
+
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container"
+ }
