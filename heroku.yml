@@ -1,8 +1,3 @@
 build:
   docker:
     web: Dockerfile
-   image: rclone/rclone:latest
-    restart: always
-    ports:
-      - "8000:8000"
-    
