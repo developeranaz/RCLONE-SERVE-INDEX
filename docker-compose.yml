@@ -7,8 +7,8 @@ rclone:
     env_file:
       - ./rclone.env
     ports:
-      - "80:80/http"
-      - "8000:8000/http"
+      - "80:80"
+      - "8080:8080"
     privileged: true
     hostname: heroku-rclone-serve
     container_name: heroku-rclone-serve
