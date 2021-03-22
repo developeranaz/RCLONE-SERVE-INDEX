@@ -2,6 +2,6 @@ build:
   docker:
     web: Dockerfile
 release:
-  image: web
+  image: rclone/rclone
   command:
     - echo 'Starting server after deployment!';
