@@ -9,6 +9,9 @@ rclone:
     ports:
       - "80:80"
       - "8080:8080"
-    privileged: true
-    hostname: heroku-rclone-serve
-    container_name: heroku-rclone-serve
+    networks:
+      - x11
+networks:
+  x11:
+
+    
