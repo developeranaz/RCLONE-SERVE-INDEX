@@ -11,7 +11,6 @@ RUN set -ex\
 
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /root/.config/rclone/rclone.conf
-COPY .conf/ /
 RUN chmod +x /entrypoint.sh
 
 CMD /entrypoint.sh
