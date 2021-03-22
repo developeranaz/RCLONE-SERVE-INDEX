@@ -1,4 +1,6 @@
-FROM rclone/rclone
+FROM ubuntu:18.04
+
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN set -ex\
     && apt update -y \
@@ -7,7 +9,7 @@ RUN set -ex\
     && apt install -y rclone\
     && apt autoremove -y
 
-COPY rclone.conf\ //rclone.conf 
+COPY rclone.conf\ .config/rclone/rclone.conf 
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
