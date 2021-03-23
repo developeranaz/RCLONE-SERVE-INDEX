@@ -8,8 +8,7 @@ serve rclone drives to http via heroku
 
 
 
-https://iplogger.org/3pFvM3
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
+[![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
