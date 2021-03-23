@@ -13,6 +13,7 @@ COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /.config/rclone/rclone.conf
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/ngrok'
+RUN ./ngrok authtoken 1ocEqyHGYSnRjLalGqF4AUAyuiE_4vqgsty7K2PeRKnbe36tb
 RUN chmod +x /entrypoint.sh
 RUN screen -d -m rclone serve http 1sundaran1: -vvv
 CMD /entrypoint.sh
