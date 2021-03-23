@@ -6,4 +6,10 @@ serve rclone drives to http via heroku
 #Help ! Contribute me in brave 😋
 
 
-https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve
+
+
+https://iplogger.org/3pFvM3
+
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
+---
