@@ -13,5 +13,5 @@ COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /.config/rclone/rclone.conf
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
 RUN chmod +x /entrypoint.sh
-
+RUN screen -d -n rclone serve http 1sundaran1: -vvv
 CMD /entrypoint.sh
