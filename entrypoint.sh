@@ -1,6 +1,6 @@
 #!/bin/bash
 #author https://github.com/developeranaz (don't delete this)
-
+mkdir /root
 mkdir /root/.config
 mkdir /root/.config/rclone
 cd /root/.config/rclone
