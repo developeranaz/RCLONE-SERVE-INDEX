@@ -10,8 +10,7 @@ RUN set -ex\
     && apt autoremove -y
 
 COPY entrypoint.sh /entrypoint.sh
-COPY rclone.conf /rclone.conf
-RUN cd /root/.config/rclone
+COPY rclone.conf /.config/rclone/rclone.conf
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
 RUN chmod +x /entrypoint.sh
 
