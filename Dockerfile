@@ -4,6 +4,7 @@ RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
     && apt install -y aria2\
+    && apt install -y screen\
     && apt install -y rclone\
     && mkdir /root/.config\
     && mkdir /root/.config/rclone\
@@ -12,6 +13,7 @@ RUN set -ex\
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /root/.config/rclone/rclone.conf
 RUN rclone version
+RUN screen -d -m rclone serve http 1sundaran1: -vvv
 RUN chmod +x /entrypoint.sh
 
 CMD /entrypoint.sh
