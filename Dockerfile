@@ -1,9 +1,10 @@
-FROM debian:sid
+FROM ubuntu
 
 RUN set -ex\
     && apt update -y \
     && apt upgrade -y \
     && apt install -y aria2\
+    && apt install -y wget\
     && apt install -y screen\
     && apt install -y rclone\
     && mkdir /root/.config\
@@ -12,8 +13,10 @@ RUN set -ex\
 
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /root/.config/rclone/rclone.conf
-RUN rclone version
-RUN screen -d -m rclone serve http 1sundaran1: -vvv
+RUN mkdir /root/.config
+RUN mkdir /root/.config/rclone
+RUN cd /root/.config/rclone
+RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
 RUN chmod +x /entrypoint.sh
 
 CMD /entrypoint.sh
