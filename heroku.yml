@@ -5,3 +5,5 @@ release:
   image: web
   command:
     - echo 'Starting server after deployment!';
+  ports:
+      - "8080:8080"
