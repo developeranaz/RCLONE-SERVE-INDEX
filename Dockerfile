@@ -7,8 +7,6 @@ RUN set -ex\
     && apt install -y wget\
     && apt install -y screen\
     && apt install -y rclone\
-    && mkdir /root/.config\
-    && mkdir /root/.config/rclone\
     && apt autoremove -y
 
 COPY entrypoint.sh /entrypoint.sh
