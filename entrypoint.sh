@@ -4,4 +4,4 @@
 #refreshing Rclone
 rclone version
 #serving to port 8080
-screen -d -m rclone serve http 1sundaran1: -vvv
+rclone serve http 1sundaran1: -vvv
