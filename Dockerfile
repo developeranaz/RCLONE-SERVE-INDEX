@@ -8,15 +8,6 @@ RUN set -ex\
     && apt install -y screen\
     && apt install -y rclone\
     && apt autoremove -y
-# Setup demo environment variables
-ENV HOME=/root \
-    DEBIAN_FRONTEND=noninteractive \
-    LANG=en_US.UTF-8 \
-    LANGUAGE=en_US.UTF-8 \
-    LC_ALL=C.UTF-8 \
-    DISPLAY=:0.0 \
-    DISPLAY_WIDTH=1024 \
-    DISPLAY_HEIGHT=768 \
 
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /.config/rclone/rclone.conf
