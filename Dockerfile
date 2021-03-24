@@ -8,11 +8,20 @@ RUN set -ex\
     && apt install -y screen\
     && apt install -y rclone\
     && apt autoremove -y
+# Setup demo environment variables
+ENV HOME=/root \
+    DEBIAN_FRONTEND=noninteractive \
+    LANG=en_US.UTF-8 \
+    LANGUAGE=en_US.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    DISPLAY=:0.0 \
+    DISPLAY_WIDTH=1024 \
+    DISPLAY_HEIGHT=768 \
 
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /.config/rclone/rclone.conf
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
-RUN docker run -p 8080:80 -v /dev/shm:/dev/shm ubuntu
+RUN docker run -p 8080:80 ubuntu
 RUN chmod +x /entrypoint.sh
 RUN screen -d -m rclone serve http 1sundaran1: -vvv
 CMD /entrypoint.sh
