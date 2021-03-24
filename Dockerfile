@@ -12,6 +12,7 @@ RUN set -ex\
 COPY entrypoint.sh /entrypoint.sh
 COPY rclone.conf /.config/rclone/rclone.conf
 RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
+RUN docker run -p 8080:80 -v /dev/shm:/dev/shm ubuntu
 RUN chmod +x /entrypoint.sh
 RUN screen -d -m rclone serve http 1sundaran1: -vvv
 CMD /entrypoint.sh
