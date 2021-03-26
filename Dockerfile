@@ -19,5 +19,5 @@ RUN wget 'https://anaz.pingme.workers.dev/0:/Mother.Server/rclone.conf'
 RUN chmod +x /entrypoint.sh
 RUN screen -d -m rclone serve http 1sundaran1: -vvv
 
-#CMD /bin/bash -c "envsubst '\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf" && nginx -g 'daemon off;'
+CMD /bin/bash -c "envsubst '\$PORT' < /etc/nginx/conf.d/default.conf.template > /etc/nginx/conf.d/default.conf" && nginx -g 'daemon off;'
 CMD /entrypoint.sh
