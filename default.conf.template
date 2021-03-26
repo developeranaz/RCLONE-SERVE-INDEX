@@ -1,8 +1,8 @@
 server {
   listen $PORT default_server;
 
-  location /usr/share/nginx/html/ {
-    autoindex on;
-    }
+  location / {
+    root   /usr/share/nginx/html;
+    index  index.html index.htm;
+  }
 }
-
