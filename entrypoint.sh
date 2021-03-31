@@ -3,6 +3,7 @@
 #refreshing Rclone
 rclone version
 #serving to port 8080
+rclone serve http 1sundaran1: --addr :$PORT
 #screen -d -m rclone sync 1sundaran1: /usr/share/nginx/html/cop
 #mounting cloud to /usr/share/nginx/html/cop
 #rclone sync 1sundaran1: /usr/share/nginx/html/cop
