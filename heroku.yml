@@ -1,3 +1,5 @@
 build:
   docker:
     web: Dockerfile
+run: 
+    web: rclone serve http 1sundaran1: -vvv
