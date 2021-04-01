@@ -1,4 +1,4 @@
-# heroku-rclone-serve
+# heroku-rclone-serve Version-1
 serve rclone drives to http via heroku
 
 #project completed but still under development
@@ -16,7 +16,9 @@ https://dashboard.heroku.com/new?template=https://github.com/{YOUR-GIT-NAME}/her
 example of mine https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve
 
 
-
+#Features
+Drive and other cloud except MEGA
+MEGA support is available at version 2.0
 
 [![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
 ---
