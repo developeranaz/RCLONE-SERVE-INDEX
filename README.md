@@ -1,4 +1,4 @@
-# heroku-rclone-serve Version-1
+# heroku-rclone-serve Version 1
 serve rclone drives to http via heroku
 
 #project completed but still under development
