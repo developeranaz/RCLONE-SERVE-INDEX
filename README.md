@@ -1,6 +1,7 @@
-# heroku-rclone-serve Version 1
+# heroku-rclone-serve v1
 serve rclone drives to http via heroku
 
+#####v2 is available at https://github.com/developeranaz/Mega.nz-Rclone-Index-Heroku
 #project completed but still under development
 
 #Help ! Contribute me in brave 😋
