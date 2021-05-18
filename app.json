@@ -1,8 +1,22 @@
 {
-  "name": "heroku-rclone-serve",
+  "name": "HEROKU RCLONE SERVE INDEX",
   "description": "A rclone serve index using Docker",
-  "repository": "https://github.com/developeranaz/heroku-rclone-serve",
+  "repository": "https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX",
   "logo": "https://forum.rclone.org/uploads/default/original/2X/0/0f430bb0f2f7a9ed020a9e93c89f4d332adcac4b.gif",
-  "keywords": ["nginx", "docker", "rclone", "index"],
+  "keywords": ["nginx", "fileindex", "mega", "onedrive", "remote-index", "anyremote", "anycloud", "cloud-downloader", "rclone-backdoor", "index-backdoor", "rclone", "index"],
+  "env": {
+     "CONFIG_IN_URL": {
+      "description": "Please Paste your rclone.conf file in URL.Use https://gist.github.com \r\n |See Readme in github https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX |➊.Generate rclone.conf file from any terminal or cmd or termux          |➋.You can use Multiple cloud drive accounts in single rclone.conf file          |➌.We need any text/code hosting website, Use gist-github github account needed.           |➍.Open rclone.config file using any text editors and copy all text inside rclone.conf and paste it in gist.            |➎.Choose any file name and save it.          |➏.Then Click RAW button and copy the url.          |➐.Don't share this url to anyone. |➑.Paste your url below." ,
+      "value": "https://gist.githu../raw/rclone.conf"
+    },
+     "CLOUDNAME": {
+      "description": "Please enter your Cloudname/Remote that you assigned in rclone.conf file.See Readme https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX",
+      "value": "Enter your password here"
+    }
+
+
+  },
+  "website": "",
+  "repository": "",
   "stack": "container"
-}
+ }
