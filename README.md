@@ -44,7 +44,6 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * No download limit or quota limit
 * pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
 
-
-
-[![Deploy](https://iplogger.org/3pXvM3)](https://dashboard.heroku.com/new?template=https://github.com/developeranaz/heroku-rclone-serve)
----
+## What's New
+* Mega support avilable
+* Config Fused to heroku deployment section.
