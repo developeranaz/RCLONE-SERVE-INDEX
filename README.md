@@ -45,5 +45,5 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
 
 ## What's New
-* Mega support avilable
+* Mega support available
 * Config Fused to heroku deployment section.
