@@ -8,7 +8,7 @@ Heroku oneclick / Rapid deploy method available
 
 ###### Star my Repository & Support me
 
-## Feel free to post Any [Issues](https://github.com/developeranaz/Aria2-Rclone-Remote-Uploader-HEROKU/issues) And share your ideas , Posting issues would help to improve this repo
+ Feel free to post Any [Issues](https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
 
 ## How To Deploy ?
 ### Step 1
