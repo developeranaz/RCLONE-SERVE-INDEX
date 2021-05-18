@@ -11,7 +11,7 @@
     },
      "CLOUDNAME": {
       "description": "Please enter your Cloudname/Remote that you assigned in rclone.conf file.See Readme https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX",
-      "value": "Enter your password here"
+      "value": ""
     }
 
 
