@@ -107,7 +107,7 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * No need to expose your rclone.conf file
 # Follow me for latest updates, v1.20 coming soon..
 ## Upcoming Updates
-* multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
+* Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
 
 
