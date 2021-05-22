@@ -105,8 +105,8 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * More cloud support available.
 * Config Fused to heroku deployment section.
 * No need to expose your rclone.conf file
-
-## Upcoming Updates v1.20
+# Follow me for latest updates, v1.20 coming soon..
+## Upcoming Updates
 * multi/infinite mix index 🤩 cloud in single index deploy like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
 
