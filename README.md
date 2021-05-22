@@ -2,7 +2,7 @@
 Any Remote Cloud Index via HEROKU
 Help me fixing readme.md 
 
-Follow me for latest updates v1.2 coming soon..
+## Follow me for latest updates, v1.20 coming soon..
 
 Heroku oneclick / Rapid deploy method available
 
@@ -105,3 +105,9 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * More cloud support available.
 * Config Fused to heroku deployment section.
 * No need to expose your rclone.conf file
+
+## Upcoming Updates v1.20
+* multi/infinite mix index 🤩 cloud in single index deploy like teamdrive seperated as folder.
+* Encryption Username & Password (under beta stage,may not work in next version)
+
+
