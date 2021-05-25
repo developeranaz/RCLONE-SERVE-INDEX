@@ -109,5 +109,5 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 ## Upcoming Updates
 * Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
-
+* Better Dark UI with CSS & JS - looking for contributers to Make new UI -Best UI designers contact me at issues 
 
