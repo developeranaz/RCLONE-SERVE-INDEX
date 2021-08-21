@@ -84,7 +84,7 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
   * OpenStack Swift [:page_facing_up:](https://rclone.org/swift/)
   * Oracle Cloud Storage [:page_facing_up:](https://rclone.org/swift/)
   * ownCloud [:page_facing_up:](https://rclone.org/webdav/#owncloud)
-  * pCloud [:page_facing_up:](https://rclone.org/pcloud/)
+  * <del>pCloud</del> [:page_facing_up:](https://rclone.org/pcloud/)
   * premiumize.me [:page_facing_up:](https://rclone.org/premiumizeme/)
   * put.io [:page_facing_up:](https://rclone.org/putio/)
   * QingStor [:page_facing_up:](https://rclone.org/qingstor/)
