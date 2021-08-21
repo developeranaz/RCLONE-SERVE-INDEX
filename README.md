@@ -80,7 +80,7 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
   * Minio [:page_facing_up:](https://rclone.org/s3/#minio)
   * Nextcloud [:page_facing_up:](https://rclone.org/webdav/#nextcloud)
   * OVH [:page_facing_up:](https://rclone.org/swift/)
-  * OpenDrive [:page_facing_up:](https://rclone.org/opendrive/)
+  * <del>OpenDrive</del> [:page_facing_up:](https://rclone.org/opendrive/)
   * OpenStack Swift [:page_facing_up:](https://rclone.org/swift/)
   * Oracle Cloud Storage [:page_facing_up:](https://rclone.org/swift/)
   * ownCloud [:page_facing_up:](https://rclone.org/webdav/#owncloud)
@@ -110,4 +110,4 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
 * Encryption Username & Password (under beta stage,may not work in next version)
 * Better Dark UI with CSS & JS - looking for contributers to Make new UI -Best UI designers contact me at issues 
-
+ 
