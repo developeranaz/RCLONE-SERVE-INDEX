@@ -5,7 +5,8 @@ bash status | grep 'working\|maintenance'
 rclone version
 rclone listremotes
 #refreshing Rclone
-wget $CONFIG_IN_URL -O '/.config/rclone/rclone.conf'
+#wget $CONFIG_IN_URL -O '/.config/rclone/rclone.conf'
+curl $CONFIG_IN_URL >/.config/rclone/rclone.conf
 rclone version
 rclone listremotes
 rclone serve http $CLOUDNAME: --addr :$PORT --vfs-read-chunk-size 128M
