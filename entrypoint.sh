@@ -3,5 +3,4 @@
 rc version
 wget $CONFIG_IN_URL -O '/.config/rclone/rclone.conf'
 rc listremotes
-rc copy /donate-developeranaz.txt MEGA:
 rc rcd --rc-serve --rc-addr=0.0.0.0:$PORT --rc-user=$INDEXusername --rc-pass=$INDEXpassword
