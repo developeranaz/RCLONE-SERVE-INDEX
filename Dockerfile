@@ -1,7 +1,6 @@
-FROM nginx:1.19.6
-RUN set -ex\
-    && apt update -y \
-    && apt upgrade -y \
+FROM developeranaz/rc-index:latest
+RUN apt update 
+RUN apt install unzip curl -y
     && apt install -y wget\
     && apt install unzip -y
 RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion-Backup/main/rclone-current-linux-amd64.zip' && \
@@ -9,9 +8,6 @@ RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion
     cp /rclone-*-linux-amd64/rclone /usr/bin/ && \
     chown root:root /usr/bin/rclone && \
     chmod 755 /usr/bin/rclone
-
-COPY entrypoint.sh /entrypoint.sh
-#COPY developeranaz-rc.zip /developeranaz-rc.zip
-#COPY rclone.conf /.config/rclone/rclone.conf
-RUN chmod +x /entrypoint.sh
-CMD /entrypoint.sh
+COPY rcindex /usr/bin/rcindex
+RUN chmod +x /usr/bin/rcindex
+CMD rcindex
