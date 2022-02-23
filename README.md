@@ -3,20 +3,20 @@ Any Remote Cloud Index via HEROKU
 
 Heroku oneclick / Rapid deploy method available
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/HEROKU-RCLONE-SERVE-INDEX/random.html)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html)
 
 ###### Star my Repository & Support me
 
- Feel free to post Any [Issues](https://github.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
+ Feel free to post Any [Issues](https://github.com/developeranaz/RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
 
 ## How To Deploy ?
 ### Step 1
 * Star my repository
 * Create a [Heroku](https://dashboard.heroku.com/login) Free account
 * Log in to Heroku in any browser
-* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/HEROKU-RCLONE-SERVE-INDEX/random.html) and deploy app
+* Click on the Rapid deployment button [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html) and deploy app
 ### Step 2 (setting Config Vars)
-#### CONFIG_FILE_IN_URL
+#### CONFIG_IN_URL
 
 * Generate rclone.conf file from any terminal or cmd or termux .
 * You can use Multiple cloud drive accounts in single rclone.conf file
@@ -24,7 +24,7 @@ Heroku oneclick / Rapid deploy method available
 * Open rclone.config file using any text editors and copy all text inside rclone.conf and paste it in gist
 * Choose any file name and save it.
 * Then Click RAW button and copy the url
-* Paste your config Url in the heroku 'CONFIG_FILE_IN_URL' Section
+* Paste your config Url in the heroku 'CONFIG_IN_URL' Section
 
 ** note : Don't share this url to anyone
 
