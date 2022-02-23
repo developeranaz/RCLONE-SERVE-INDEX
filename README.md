@@ -1,8 +1,6 @@
 # HEROKU-RCLONE-SERVE-INDEX
 Any Remote Cloud Index via HEROKU
 
-## Follow me for latest updates, v1.20 coming soon..
-
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/HEROKU-RCLONE-SERVE-INDEX/random.html)
@@ -29,11 +27,7 @@ Heroku oneclick / Rapid deploy method available
 * Paste your config Url in the heroku 'CONFIG_FILE_IN_URL' Section
 
 ** note : Don't share this url to anyone
-#### CLOUDNAME
-CLOUDNAME is the remote name that you given in rclone.conf file.
-You can check it by opening your rclone.conf file using any text editors 
-See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/HEROKU-RCLONE-SERVE-INDEX/main/.example_images/Screenshot_20210506_165138.jpg) Here ‘ devanazdrive4 ‘ is the CLOUDNAME
-### 
+
 
 ------------
 ### Features
@@ -104,9 +98,7 @@ See Examples image ![CLOUDNAME](https://raw.githubusercontent.com/developeranaz/
 * More cloud support available.
 * Config Fused to heroku deployment section.
 * No need to expose your rclone.conf file
-# Follow me for latest updates, v1.20 coming soon..
-## Upcoming Updates
-* Multi/infinite mix index 🤩 All cloud/remotes in single index like teamdrive seperated as folder.
-* Encryption Username & Password (under beta stage,may not work in next version)
-* Better Dark UI with CSS & JS - looking for contributers to Make new UI -Best UI designers contact me at issues 
- 
+* No need to add CLOUDNAME.
+* Multi cloud index 🤩 All cloud/remotes in single index like teamdrive seperated as folder. --⭐ newly added
+* Encryption Username & Password --⭐ newly added
+* Better Dark UI --⭐ newly added
