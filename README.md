@@ -101,6 +101,6 @@ Heroku oneclick / Rapid deploy method available
 * Config Fused to heroku deployment section.
 * No need to expose your rclone.conf file
 * No need to add CLOUDNAME.
-* Multi cloud index 🤩 All cloud/remotes in single index like teamdrive seperated as folder. --⭐ newly added
+* Multi cloud index 🤩 All cloud/remotes in single index like teamdrive separated as folder. --⭐ newly added
 * Encryption Username & Password --⭐ newly added
 * Better Dark UI --⭐ newly added
