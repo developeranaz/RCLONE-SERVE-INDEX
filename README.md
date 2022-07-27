@@ -1,17 +1,17 @@
 # HEROKU-RCLONE-SERVE-INDEX
-![plot](./.example_images/image.png)
-
 Any Remote Cloud Index via HEROKU
 
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html)
 
+![plot](./.example_images/image.png)
+
 ###### Star my Repository & Support me
 
- Feel free to post Any [Issues](https://github.com/developeranaz/RCLONE-SERVE-INDEX) And share your ideas , Posting issues would help to improve this repo
+ Feel free to post any [Issues](https://github.com/developeranaz/RCLONE-SERVE-INDEX) and share your ideas, posting issues would help me to improve this repo!
 
-## How To Deploy ?
+## How To Deploy?
 ### Step 1
 * Star my repository
 * Create a [Heroku](https://dashboard.heroku.com/login) Free account
@@ -21,23 +21,23 @@ Heroku oneclick / Rapid deploy method available
 #### CONFIG_IN_URL
 
 * Generate rclone.conf file from any terminal or cmd or termux .
-* You can use Multiple cloud drive accounts in single rclone.conf file
-* We need any text/code hosting website, Use [gist-github](https://gist.github.com) github account needed.
-* Open rclone.config file using any text editors and copy all text inside rclone.conf and paste it in gist
+* You can use multiple cloud drive accounts in a single rclone.conf file
+* A text/code hosting website is needed, use [gist-github](https://gist.github.com) where a github account is needed.
+* Open rclone.config file using a text editor of your choice, copy all text inside rclone.conf and paste it in gist
 * Choose any file name and save it.
 * Then Click RAW button and copy the url
 * Paste your config Url in the heroku 'CONFIG_IN_URL' Section
 
-** note : Don't share this url to anyone
+** note : Don't share this url with anyone
 
 
 ------------
 ### Features
 
-* Drive ,Mega ,Onedrive and other remotes available.
-* MEGA support is available at version 2.0
-* No internet speed capping ,Enjoy Maximum download speed
-* 24x7 permanent link
+* Drive, Mega, Onedrive and other remotes available.
+* MEGA support is available with version 2.0
+* No internet speed capping, enjoy Maximum download speed
+* 24x7 permanent links
 * No download limit or quota limit
 * pause download available (Use download Managers like ADM ,XDM, Aria2 for more stability)
 
