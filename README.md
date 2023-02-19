@@ -6,6 +6,7 @@ Any Remote Cloud Index via HEROKU
 Heroku oneclick / Rapid deploy method available
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://developeranaz.github.io/RCLONE-SERVE-INDEX/random.html)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=developeranaz/rcindex:latest&name=rcindex&ports=3000;http;/&env[CONFIG_IN_URL]=<CONFIG_IN_URL>&env[template]=dark&env[indexauthentication]=false&env[INDEXusername]=<INDEXusername>&env[INDEXpassword]=<INDEXpassword>&env[PORT]=3000&command=rcindex)
 
 ###### Star my Repository & Support me
 
@@ -104,3 +105,7 @@ Heroku oneclick / Rapid deploy method available
 * Multi cloud index 🤩 All cloud/remotes in single index like teamdrive separated as folder. --⭐ newly added
 * Encryption Username & Password --⭐ newly added
 * Better Dark UI --⭐ newly added
+
+# Deployment Buttons
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/apps/deploy?type=docker&image=developeranaz/rcindex:latest&name=rcindex&ports=3000;http;/&env[CONFIG_IN_URL]=<CONFIG_IN_URL>&env[template]=dark&env[indexauthentication]=false&env[INDEXusername]=<INDEXusername>&env[INDEXpassword]=<INDEXpassword>&env[PORT]=3000&command=rcindex)
+
